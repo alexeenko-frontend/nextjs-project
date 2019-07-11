@@ -1,0 +1,42 @@
+{
+    "name": "game",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@zeit/next-sass": "^1.0.1",
+        "next": "^9.0.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "express": "^4.16.4",
+        "serve-favicon": "^2.5.0",
+        "next-routes": "^1.4.2",
+        "axios": "^0.18.0",
+        "dotenv-webpack": "^1.5.7",
+        "es6-promise": "4.1.1",
+        "lodash": "^4.17.11",
+        "next-compose-plugins": "^2.1.1",
+        "next-fonts": "^0.17.0",
+        "next-images": "^1.0.3",
+        "next-redux-saga": "3.0.0",
+        "next-redux-wrapper": "^2.0.0",
+        "node-sass": "^4.10.0",
+        "nprogress": "^0.2.0",
+        "prop-types": "^15.6.2",
+        "react-media-match": "^1.8.2",
+        "react-redux": "^5.1.1",
+        "redux": "^4.0.1",
+        "redux-devtools-extension": "^2.13.5",
+        "redux-persist": "^5.10.0",
+        "redux-saga": "^0.16.2",
+        "styled-components": "^4.0.3",
+        "ua-parser-js": "^0.7.19"
+    },
+    "scripts": {
+        "dev": "node server.js",
+        "build": "next build src",
+        "start": "NODE_ENV=production node server.js src",
+        "now-build": "next build && next export -o dist",
+        "production": "next build src && NODE_ENV=production node server.js src"
+    },
+    "devDependencies": {}
+}
