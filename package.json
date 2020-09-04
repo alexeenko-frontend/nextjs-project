@@ -19,7 +19,7 @@
         "next-images": "^1.0.3",
         "next-redux-saga": "3.0.0",
         "next-redux-wrapper": "^2.0.0",
-        "node-sass": "^4.10.0",
+        "node-sass": "^4.13.1",
         "nprogress": "^0.2.0",
         "prop-types": "^15.6.2",
         "react-media-match": "^1.8.2",
